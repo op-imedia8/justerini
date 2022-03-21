@@ -829,6 +829,26 @@ body{
   margin-bottom: 5rem;
 }
 
+.mt-\[5\%\] {
+  margin-top: 5%;
+}
+
+.mt-\[15\%\] {
+  margin-top: 15%;
+}
+
+.mt-\[14\%\] {
+  margin-top: 14%;
+}
+
+.mt-\[1\%\] {
+  margin-top: 1%;
+}
+
+.mt-\[13\%\] {
+  margin-top: 13%;
+}
+
 .block {
   display: block;
 }
@@ -859,6 +879,10 @@ body{
 
 .h-28 {
   height: 7rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-24 {
@@ -1050,6 +1074,18 @@ body{
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-\[14\%\] {
+  padding-top: 14%;
+}
+
+.pt-\[10\%\] {
+  padding-top: 10%;
 }
 
 .text-center {
