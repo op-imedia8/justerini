@@ -849,6 +849,10 @@ body{
   margin-top: 13%;
 }
 
+.mb-\[5\%\] {
+  margin-bottom: 5%;
+}
+
 .block {
   display: block;
 }
@@ -883,6 +887,10 @@ body{
 
 .h-24 {
   height: 6rem;
+}
+
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .w-24 {
@@ -1117,6 +1125,18 @@ body{
 
 .pt-\[5\%\] {
   padding-top: 5%;
+}
+
+.pt-\[25\] {
+  padding-top: 25;
+}
+
+.pt-\[6\%\] {
+  padding-top: 6%;
+}
+
+.pt-\[8\%\] {
+  padding-top: 8%;
 }
 
 .text-center {
