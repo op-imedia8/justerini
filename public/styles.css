@@ -885,6 +885,14 @@ body{
   width: 350px;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
