@@ -1,0 +1,21 @@
+
+
+$('.owl-carousel').owlCarousel({
+    loop:false,
+    // margin: 20,
+    nav:true,
+    navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+    animateOut: 'fadeOut',
+    dots:false, 
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
