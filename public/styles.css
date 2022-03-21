@@ -935,6 +935,10 @@ body{
   height: 10%;
 }
 
+.h-\[95vh\] {
+  height: 95vh;
+}
+
 .max-h-screen {
   max-height: 100vh;
 }
