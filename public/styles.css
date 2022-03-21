@@ -797,8 +797,8 @@ body{
   margin-top: 0.5rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.mt-\[13\%\] {
+  margin-top: 13%;
 }
 
 .mb-4 {
@@ -813,12 +813,16 @@ body{
   margin-top: 1.25rem;
 }
 
+.mt-\[14\%\] {
+  margin-top: 14%;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-\[5\%\] {
+  margin-bottom: 5%;
 }
 
 .mb-12 {
@@ -827,30 +831,6 @@ body{
 
 .mb-20 {
   margin-bottom: 5rem;
-}
-
-.mt-\[5\%\] {
-  margin-top: 5%;
-}
-
-.mt-\[15\%\] {
-  margin-top: 15%;
-}
-
-.mt-\[14\%\] {
-  margin-top: 14%;
-}
-
-.mt-\[1\%\] {
-  margin-top: 1%;
-}
-
-.mt-\[13\%\] {
-  margin-top: 13%;
-}
-
-.mb-\[5\%\] {
-  margin-bottom: 5%;
 }
 
 .block {
@@ -869,10 +849,6 @@ body{
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -881,16 +857,12 @@ body{
   height: auto;
 }
 
-.h-28 {
-  height: 7rem;
-}
-
 .h-24 {
   height: 6rem;
 }
 
-.h-\[90vh\] {
-  height: 90vh;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-24 {
@@ -1016,9 +988,9 @@ body{
   padding-bottom: 0.75rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.py-\[5\%\] {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .px-6 {
@@ -1031,76 +1003,22 @@ body{
   padding-right: 3.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-\[13\%\] {
   padding-top: 13%;
   padding-bottom: 13%;
 }
 
-.py-\[10\%\] {
-  padding-top: 10%;
-  padding-bottom: 10%;
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.py-\[5\%\] {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-\[13\%\] {
+  padding-top: 13%;
 }
 
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.pt-14 {
-  padding-top: 3.5rem;
-}
-
-.pt-9 {
-  padding-top: 2.25rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .pt-\[14\%\] {
@@ -1111,12 +1029,20 @@ body{
   padding-top: 10%;
 }
 
-.pt-\[13\%\] {
-  padding-top: 13%;
+.pr-4 {
+  padding-right: 1rem;
 }
 
-.pt-\[20\%\] {
-  padding-top: 20%;
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pt-\[8\%\] {
+  padding-top: 8%;
+}
+
+.pt-\[6\%\] {
+  padding-top: 6%;
 }
 
 .pt-\[25\%\] {
@@ -1127,16 +1053,24 @@ body{
   padding-top: 5%;
 }
 
-.pt-\[25\] {
-  padding-top: 25;
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
-.pt-\[6\%\] {
-  padding-top: 6%;
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
-.pt-\[8\%\] {
-  padding-top: 8%;
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
