@@ -861,8 +861,8 @@ body{
   height: 6rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .w-24 {
@@ -1049,28 +1049,24 @@ body{
   padding-top: 25%;
 }
 
-.pt-\[5\%\] {
-  padding-top: 5%;
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pb-5 {
   padding-bottom: 1.25rem;
 }
 
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pt-8 {
   padding-top: 2rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -1248,5 +1244,6 @@ body{
     max-width: 42rem;
   }
 } 
+
 
   
