@@ -1018,11 +1018,6 @@ body{
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
-
 .bg-hero-pattern {
   background-image: url(./assets/Logos/scroll_group.png);
 }
@@ -1192,10 +1187,6 @@ body{
   line-height: 1.5rem;
 }
 
-.text-\[1\.5vh\] {
-  font-size: 1.5vh;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1324,6 +1315,7 @@ body{
   flex: 1 0 auto !important;
   height: 80vh !important;
   justify-content: space-between !important;
+  overflow: hidden !important;
 }
 
 .hover\:bg-brand-gold:hover {

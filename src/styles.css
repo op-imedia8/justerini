@@ -73,6 +73,7 @@
     flex: 1 0 auto !important;
     height: 80vh !important;
     justify-content: space-between !important;
+    overflow: hidden !important;
   
 }
 
