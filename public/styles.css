@@ -1274,6 +1274,7 @@ body{
   font-size: 40px !important;
   margin: 0px 20px !important;
   font-weight: thin !important;
+  border: 1px solid transparent !important;
   /* height:  47px !important; */
 }
 
@@ -1282,16 +1283,11 @@ body{
   /* height:  47px !important; */
 }
 
-.owl-nav button:focus{
-  border-color: transparent !important;
-  /* color: black !important; */
-  /* background-color: #101531 !important;  */
-}
-
 .owl-carousel .owl-theme {
   /* display: flex !important; */
   /* flex: auto !important; */
-  height: 100vh !important;
+  /* height: 100vh !important; */
+  height: 95vh !important;
 }
 
 /* .owl-carousel  {
@@ -1308,7 +1304,7 @@ body{
   justify-content: space-between !important;
   overflow: hidden !important;
   font-size: 1.5vh !important;
-  /* border: 2px solid yellow !important;  */
+  border: 2px solid yellow !important;
 }
 
 .hover\:bg-brand-gold:hover {
