@@ -37,7 +37,7 @@
    } */
 
    .owl-nav button  {
-      color:  white !important;
+      color:  black !important;
       font-size: 40px !important;
       margin: 0px 20px !important;
       font-weight: thin !important;
@@ -49,14 +49,17 @@
       
       /* height:  47px !important; */
    } 
-   .owl-nav {
-      background-color: #101531 !important; 
+   .owl-nav button:focus{
+       border-color: transparent !important;
+       /* color: black !important; */
+      /* background-color: #101531 !important;  */
    } 
 
-   /* .owl-carousel .owl-theme {
-    display: flex !important;
-    flex: auto !important;
-  } */
+   .owl-carousel .owl-theme {
+    /* display: flex !important; */
+    /* flex: auto !important; */
+    height: 100vh !important;
+  }
 
  /* .owl-carousel  {
   
@@ -66,9 +69,9 @@
 
    .item{
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column  !important;
     flex: 1 0 auto !important;
-    height: 100% !important;
+    height: 80vh !important;
     justify-content: space-between !important;
   
 }
