@@ -981,10 +981,6 @@ body{
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-r {
   border-right-width: 1px;
 }
@@ -996,11 +992,6 @@ body{
 .border-brand-gray {
   --tw-border-opacity: 1;
   border-color: rgba(124, 132, 143, var(--tw-border-opacity));
-}
-
-.border-red-400 {
-  --tw-border-opacity: 1;
-  border-color: rgba(248, 113, 113, var(--tw-border-opacity));
 }
 
 .bg-brand-blue {
@@ -1317,7 +1308,7 @@ body{
   justify-content: space-between !important;
   overflow: hidden !important;
   font-size: 1.5vh !important;
-  border: 2px solid yellow !important;
+  /* border: 2px solid yellow !important;  */
 }
 
 .hover\:bg-brand-gold:hover {
