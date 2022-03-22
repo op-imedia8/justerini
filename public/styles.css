@@ -995,6 +995,11 @@ body{
   border-color: rgba(185, 28, 28, var(--tw-border-opacity));
 }
 
+.border-blue-700 {
+  --tw-border-opacity: 1;
+  border-color: rgba(29, 78, 216, var(--tw-border-opacity));
+}
+
 .bg-brand-blue {
   --tw-bg-opacity: 1;
   background-color: rgba(16, 21, 49, var(--tw-bg-opacity));
@@ -1302,7 +1307,7 @@ body{
   display: flex !important;
   flex-direction: column;
   flex: 1 0 auto !important;
-  height: 70vh !important;
+  height: 100% !important;
   justify-content: space-between !important;
 }
 
