@@ -923,6 +923,30 @@ body{
   width: 40vh;
 }
 
+.w-\[3vh\] {
+  width: 3vh;
+}
+
+.w-\[15vh\] {
+  width: 15vh;
+}
+
+.w-\[255vh\] {
+  width: 255vh;
+}
+
+.w-\[25vh\] {
+  width: 25vh;
+}
+
+.w-\[20vh\] {
+  width: 20vh;
+}
+
+.w-\[35vh\] {
+  width: 35vh;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
