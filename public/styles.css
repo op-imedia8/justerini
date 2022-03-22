@@ -1200,6 +1200,10 @@ body{
   font-size: 2vw;
 }
 
+.text-\[1\.5vh\] {
+  font-size: 1.5vh;
+}
+
 .font-bold {
   font-weight: 700;
 }
