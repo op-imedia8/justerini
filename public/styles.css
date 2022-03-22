@@ -1168,6 +1168,14 @@ body{
   line-height: 1rem;
 }
 
+.text-\[2vh\] {
+  font-size: 2vh;
+}
+
+.text-\[2vw\] {
+  font-size: 2vw;
+}
+
 .font-bold {
   font-weight: 700;
 }
