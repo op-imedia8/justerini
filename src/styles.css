@@ -53,12 +53,26 @@
       background-color: #101531 !important; 
    } 
 
-   @media  screen and (max-height: 560px) {
-       .logos{
-           height: 10%;
-       }
-       
-   }
+   /* .owl-carousel .owl-theme {
+    display: flex !important;
+    flex: auto !important;
+  } */
 
-
+ /* .owl-carousel  {
   
+    width: auto;
+    height: 80% !important;
+  } */
+
+   .item{
+    display: flex !important;
+    flex-direction: column;
+    flex: 1 0 auto !important;
+    height: 80vh !important;
+    justify-content: space-between !important;
+    font-size: 2vh !important;
+}
+
+
+
+

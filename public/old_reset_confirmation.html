@@ -17,43 +17,46 @@
 </head>
 
 <body class="bg-brand-blue">
-   
-    <div class=" max-w-md m-auto">
-        
-      <div class="flex flex-col   h-[95vh] justify-evenly ">
-
-          <div class="flex flex-col  h-[20%] pt-5 logos ">
+    <!-- <div class="relative">   
+    </div> -->
+    <div class="max-w-md mx-auto bg-brand-blue rounded-xl shadow-md  md:max-w-2xl h-screen">
+        <div class="flex flex-col justify-between  ">
+          <div class="flex flex-col pt-[13%]">
             <img class="mx-auto w-24 object-cover" src="./assets/Logos/just-warrant.svg" alt="">
             <img class="mx-auto w-60 mt-2 object-cover h-auto" src="./assets/Logos/just-name.svg" alt="">
-            <img class="mx-auto w-52 object-cover my-2" src="./assets/Logos/just-merchant.svg" alt="">
+            <img class="mx-auto w-52 object-cover mt-2" src="./assets/Logos/just-merchant.svg" alt="">
           </div>
        
-            <div class="text-white text-center h-[20%]  pt-10">
-              <p class="text-base  px-12">Type in your email address below and 
-                we’ll send you an email with instructions 
-                on how to create a new password</p>
+            <div class="text-white text-center">
+             
+              <p class="text-base pt-[8%] px-12">To create your new password, click the 
+                link in the email and enter a new one</p>
+              <p class="text-base pt-[8%] px-12">Didn’t receive the email? Check your 
+                junk email, any other email addresses 
+                linked to your account, or click below 
+                to resend the email.</p>
             </div>
         
-          <div class=" h-[40%] ">
-            <form class="px-10">
-                <div class="mb-12">
-                  <label class="font-garamound block   text-brand-gold text-sm  mb-1 uppercase text-center" for="username">
-                    Email Address
-                  </label>
-                  <input class="shadow appearance-none border border-transparent focus:border-brand-gold focus:ring-0 w-full py-2 text-center text-black leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="email@address.com">
-                </div>
+          <div class="">
+            <form class="px-10 py-[5%]">
+              <div class="flex flex-col items-center justify-between pt-[10%] mb-5">
+                <button class="font-garamound uppercase bg-brand-blue-light hover:bg-brand-gold text-white   py-2 px-6  focus:outline-none focus:shadow-outline mt-2" type="button">
+                  resend email
+                </button>
+             
+              </div>
                
                
-                <div class="flex flex-col items-center justify-between ">
-                  <a href="./reset_confirmation.html" class="font-garamound uppercase bg-brand-blue-light hover:bg-brand-gold text-white   py-2 px-6  focus:outline-none focus:shadow-outline mt-2" type="">
-                    reset password
-                  </a>
+                <div class="flex flex-col items-center justify-between pt-[6%] mb-[5%]">
+                  <button class="font-garamound uppercase bg-brand-blue-light hover:bg-brand-gold text-white   py-2 px-14  focus:outline-none focus:shadow-outline mt-2" type="button">
+                    sign in
+                  </button>
                
                 </div>
             </form>
             
           </div>
-          <div class="flex justify-center py-3 h-[6%] ">
+          <div class="flex justify-center py-3 ">
             <a href="./terms_privacy.html#privacy_policy" class="capitalize text-brand-gray text-xs border-r border-brand-gray pr-4 leading-6 underline">privacy policy</a>
             <a href="./terms_privacy.html#terms_conditions" class="capitalize text-brand-gray text-xs pl-4 leading-6 underline">terms & conditions</a>
           </div>
