@@ -903,6 +903,14 @@ body{
   height: 30%;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .w-\[15vh\] {
   width: 15vh;
 }
@@ -1008,6 +1016,11 @@ body{
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .bg-hero-pattern {
@@ -1177,6 +1190,10 @@ body{
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-\[1\.5vh\] {
+  font-size: 1.5vh;
 }
 
 .font-bold {
