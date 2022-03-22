@@ -867,12 +867,16 @@ body{
   height: 20%;
 }
 
-.h-\[40\%\] {
-  height: 40%;
+.h-\[45s\%\] {
+  height: 45s%;
 }
 
 .h-\[6\%\] {
   height: 6%;
+}
+
+.h-\[40\%\] {
+  height: 40%;
 }
 
 .h-\[3\%\] {
@@ -899,12 +903,16 @@ body{
   height: 30%;
 }
 
-.h-\[50\%\] {
-  height: 50%;
+.w-\[15vh\] {
+  width: 15vh;
 }
 
-.h-\[45s\%\] {
-  height: 45s%;
+.w-\[25vh\] {
+  width: 25vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-24 {
@@ -919,40 +927,12 @@ body{
   width: 13rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-72 {
   width: 18rem;
 }
 
 .w-\[40vh\] {
   width: 40vh;
-}
-
-.w-\[3vh\] {
-  width: 3vh;
-}
-
-.w-\[15vh\] {
-  width: 15vh;
-}
-
-.w-\[255vh\] {
-  width: 255vh;
-}
-
-.w-\[25vh\] {
-  width: 25vh;
-}
-
-.w-\[20vh\] {
-  width: 20vh;
-}
-
-.w-\[35vh\] {
-  width: 35vh;
 }
 
 .max-w-md {
@@ -997,10 +977,6 @@ body{
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-r {
   border-right-width: 1px;
 }
@@ -1012,16 +988,6 @@ body{
 .border-brand-gray {
   --tw-border-opacity: 1;
   border-color: rgba(124, 132, 143, var(--tw-border-opacity));
-}
-
-.border-red-700 {
-  --tw-border-opacity: 1;
-  border-color: rgba(185, 28, 28, var(--tw-border-opacity));
-}
-
-.border-yellow-600 {
-  --tw-border-opacity: 1;
-  border-color: rgba(217, 119, 6, var(--tw-border-opacity));
 }
 
 .bg-brand-blue {
@@ -1056,9 +1022,9 @@ body{
      object-fit: cover;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .py-2 {
@@ -1066,9 +1032,9 @@ body{
   padding-bottom: 0.5rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-\[5\%\] {
@@ -1101,8 +1067,8 @@ body{
   padding-right: 2rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
+.pt-\[2vh\] {
+  padding-top: 2vh;
 }
 
 .pt-4 {
@@ -1111,6 +1077,10 @@ body{
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .pr-4 {
@@ -1169,14 +1139,6 @@ body{
   padding-top: 1.5rem;
 }
 
-.pt-\[3vh\] {
-  padding-top: 3vh;
-}
-
-.pt-\[2vh\] {
-  padding-top: 2vh;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1193,9 +1155,8 @@ body{
   font-family: lato, sans-serif;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-\[2vh\] {
+  font-size: 2vh;
 }
 
 .text-sm {
@@ -1208,16 +1169,9 @@ body{
   line-height: 1rem;
 }
 
-.text-\[2vh\] {
-  font-size: 2vh;
-}
-
-.text-\[2vw\] {
-  font-size: 2vw;
-}
-
-.text-\[1\.5vh\] {
-  font-size: 1.5vh;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1345,7 +1299,6 @@ body{
   flex: 1 0 auto !important;
   height: 80vh !important;
   justify-content: space-between !important;
-  font-size: 2vh !important;
 }
 
 .hover\:bg-brand-gold:hover {
